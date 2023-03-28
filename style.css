@@ -1,0 +1,25 @@
+h3
+{
+font-size: 25px !important;
+}
+.btn-primary:hover
+{
+ background: linear-gradient(red 5%,Blue 95%)
+}
+.btn-danger:hover
+{
+ background: linear-gradient(yellow 5%,red 95%)
+}
+canvas 
+{
+animation-name: example;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {box-shadow: 1px 2px 38px cyan;}
+    to{box-shadow: 1px 2px 38px cyan;}
+  }
+
